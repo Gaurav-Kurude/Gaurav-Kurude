@@ -220,8 +220,8 @@ body {
   }
 
   /* Hero section takes at least 80% of mobile screen height */
-  .hero-section .min-vh-40 {
-    /* min-height: 40vh !important; */
+  .hero-section .min-vh-100 {
+    min-height: 40vh !important;
   }
 
   .hero-section h1 {
