@@ -35,8 +35,12 @@ const skills = [
     image: "https://cdn.simpleicons.org/mongodb",
   },
   {
-    name: "Git & GitHub",
+    name: "GitHub",
     image: "https://cdn.simpleicons.org/github",
+  },
+  {
+    name: "Git",
+    image: "https://cdn.simpleicons.org/git",
   },
 ];
 
