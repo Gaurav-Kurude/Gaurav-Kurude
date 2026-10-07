@@ -219,7 +219,7 @@ body {
     padding-bottom: 0;
   }
 
-  .hero-section .min-vh-55 {
+  .hero-section .min-vh-100 {
     min-height: 100vh !important;
   }
 
