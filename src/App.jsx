@@ -27,7 +27,7 @@ const projects = [
     title: "Anvaya CRM",
     category: "CRM Application",
     description:
-    "A full-stack CRM application built with React, Node.js, Express.js, and MongoDB for managing leads, sales agents, comments, tags, and reports with filtering and data visualization.",
+      "A full-stack CRM application built with React, Node.js, Express.js, and MongoDB for managing leads, sales agents, comments, tags, and reports with filtering and data visualization.",
     technologies: ["React", "JavaScript", "Node.js", "Express", "MongoDB"],
     liveLink: "https://major-project-two-frontend-sepia.vercel.app",
     githubLink: "https://github.com/Gaurav-Kurude/Anvaya-CRM",
@@ -100,13 +100,17 @@ function App() {
         <div className="container">
           <div className="row align-items-center min-vh-100">
             <div className="col-lg-7">
-              <p className="text-primary fw-semibold mb-2">HELLO, I'M</p>
+              <p className="text-primary fw-semibold mb-2">
+                HELLO, I'M
+              </p>
 
               <h1 className="display-1 fw-bold">
                 Gaurav <span className="text-primary">Kurude.</span>
               </h1>
 
-              <h2 className="fw-semibold mb-3">Full-Stack Developer</h2>
+              <h2 className="fw-semibold mb-3">
+                Full-Stack Developer
+              </h2>
 
               <p className="lead text-secondary">
                 I build responsive and user-friendly web applications using
@@ -190,7 +194,11 @@ function App() {
                   </p>
 
                   <p className="ms-3">
-                    role: <span className="green">"Full-Stack Developer"</span>,
+                    role:{" "}
+                    <span className="green">
+                      "Full-Stack Developer"
+                    </span>
+                    ,
                   </p>
 
                   <p className="ms-3">
@@ -215,9 +223,13 @@ function App() {
       <section id="projects" className="py-5 bg-white">
         <div className="container py-5">
           <div className="mb-5">
-            <p className="text-primary fw-semibold">PROJECTS</p>
+            <p className="text-primary fw-semibold">
+              PROJECTS
+            </p>
 
-            <h2 className="display-5 fw-bold">Things I've built.</h2>
+            <h2 className="display-5 fw-bold">
+              Things I've built.
+            </h2>
 
             <p className="text-secondary">
               A few projects that represent my journey towards full-stack
@@ -237,9 +249,13 @@ function App() {
                     {project.category}
                   </p>
 
-                  <h3 className="fw-bold">{project.title}</h3>
+                  <h3 className="fw-bold">
+                    {project.title}
+                  </h3>
 
-                  <p className="text-secondary">{project.description}</p>
+                  <p className="text-secondary">
+                    {project.description}
+                  </p>
 
                   <div className="mb-4">
                     {project.technologies.map((technology) => (
@@ -291,7 +307,9 @@ function App() {
       <section id="skills" className="py-5 bg-light">
         <div className="container py-5">
           <div className="text-center mb-5">
-            <p className="text-primary fw-semibold">MY SKILLS</p>
+            <p className="text-primary fw-semibold">
+              MY SKILLS
+            </p>
 
             <h2 className="display-5 fw-bold skills-title">
               Technologies I work with.
@@ -304,7 +322,10 @@ function App() {
 
           <div className="row g-3 justify-content-center">
             {skills.map((skill) => (
-              <div className="col-6 col-md-4 col-lg-3" key={skill.name}>
+              <div
+                className="col-6 col-md-4 col-lg-3"
+                key={skill.name}
+              >
                 <div className="skill-card text-center p-4 rounded-4">
                   <img
                     src={skill.image}
@@ -312,7 +333,9 @@ function App() {
                     className="skill-image"
                   />
 
-                  <h5 className="mt-3 mb-0">{skill.name}</h5>
+                  <h5 className="mt-3 mb-0">
+                    {skill.name}
+                  </h5>
                 </div>
               </div>
             ))}
@@ -323,7 +346,9 @@ function App() {
       {/* Contact Section */}
       <section id="contact" className="contact-section py-5">
         <div className="container py-5 text-center">
-          <p className="text-primary fw-semibold">GET IN TOUCH</p>
+          <p className="text-primary fw-semibold">
+            GET IN TOUCH
+          </p>
 
           <h2 className="display-5 fw-bold text-white">
             Let's build something together.
@@ -347,7 +372,9 @@ function App() {
       {/* Footer */}
       <footer className="bg-dark text-secondary py-4">
         <div className="container text-center">
-          <p className="mb-0">© 2026 Gaurav Kurude. All rights reserved.</p>
+          <p className="mb-0">
+            © 2026 Gaurav Kurude. All rights reserved.
+          </p>
         </div>
       </footer>
     </>

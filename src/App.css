@@ -220,7 +220,7 @@ body {
   }
 
   .hero-section .min-vh-100 {
-    min-height: 100vh !important;
+    min-height: auto !important;
   }
 
   .hero-section h1 {
