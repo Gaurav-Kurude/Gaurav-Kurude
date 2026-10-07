@@ -196,7 +196,7 @@ body {
   }
 
   /* Reduce Hero section height on mobile */
-  .hero-section .min-vh-80 {
+  .hero-section .min-vh-100 {
     min-height: 80vh !important;
   }
 
