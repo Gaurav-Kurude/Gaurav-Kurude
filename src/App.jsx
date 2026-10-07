@@ -129,7 +129,7 @@ function App() {
                 </a>
 
                 <a
-                  href="/Gaurav-Kurude-Resume.pdf"
+                  href="/Gaurav_Kurude_Resume.pdf"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-outline-primary btn-lg rounded-pill"
