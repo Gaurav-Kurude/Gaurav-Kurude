@@ -7,6 +7,7 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   color: #171717;
+  overflow-x: hidden;
 }
 
 /* Navbar */
@@ -122,6 +123,12 @@ body {
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
 }
 
+.skill-image {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+}
+
 /* Projects */
 
 .project-card {
@@ -189,18 +196,13 @@ body {
   margin-right: auto;
 }
 
-.skill-image {
-  width: 55px;
-  height: 55px;
-  object-fit: contain;
-}
-
-/* Mobile */
+/* Tablet */
 
 @media (max-width: 991px) {
   .navbar-collapse {
     background: white;
-    padding: 15px 0;
+    padding: 15px 20px;
+    border-radius: 0 0 10px 10px;
   }
 
   .nav-link {
@@ -217,22 +219,100 @@ body {
   }
 }
 
+/* Mobile */
+
 @media (max-width: 576px) {
+  .navbar {
+    min-height: 60px;
+  }
+
+  .navbar-brand {
+    font-size: 1.3rem;
+  }
+
+  .hero-section {
+    padding-top: 60px;
+  }
+
   .hero-section h1 {
-    font-size: 3rem;
+    font-size: 2.8rem;
     letter-spacing: -2px;
+    line-height: 1.1;
   }
 
   .hero-section h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
+
+  .hero-section .lead {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  /* Hero buttons */
+
+  .hero-section .btn {
+    width: 100%;
+    margin: 5px 0 !important;
+  }
+
+  /* Social icons */
+
+  .hero-section .fs-4 {
+    font-size: 1.3rem !important;
+  }
+
+  /* Section headings */
+
+  .display-5 {
+    font-size: 2rem;
+  }
+
+  /* Project cards */
+
+  .project-card {
+    padding: 25px !important;
+  }
+
+  .project-card .btn {
+    width: 100%;
+    margin: 5px 0 !important;
+  }
+
+  /* Skills */
+
+  .skill-card {
+    padding: 20px !important;
+  }
+
+  .skill-image {
+    width: 45px;
+    height: 45px;
+  }
+
+  .skill-card h5 {
+    font-size: 1rem;
+  }
+
+  /* Education */
 
   .education-card {
     flex-direction: column;
   }
 
-  .project-card {
-    padding: 25px !important;
+  /* Contact */
+
+  .contact-section h2 {
+    font-size: 2rem;
+  }
+
+  .contact-section p {
+    font-size: 0.95rem;
+  }
+
+  /* Footer */
+
+  footer p {
+    font-size: 0.85rem;
   }
 }
-
