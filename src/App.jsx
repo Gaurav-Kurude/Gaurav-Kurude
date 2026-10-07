@@ -202,8 +202,8 @@ function App() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="py-5 bg-white">
-        <div className="container py-5">
+      <section id="projects" className="pb-5 pt-2 bg-white">
+        <div className="container pb-5 pt-2">
           <div className="mb-5">
             <p className="text-primary fw-semibold">PROJECTS</p>
 
