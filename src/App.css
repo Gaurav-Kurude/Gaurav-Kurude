@@ -314,3 +314,9 @@ body {
     min-height: 44vh !important;
   }
 }
+
+@media (max-width: 576px){
+  .hero-section .min-vh-100 {
+    min-height: 174vh !important;
+  } 
+}
