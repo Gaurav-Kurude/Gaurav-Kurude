@@ -161,12 +161,13 @@ function App() {
               </div>
 
               <div className="mt-4">
-                <a href="https://github.com/Gaurav-Kurude" className="text-dark fs-4 me-3" aria-label="GitHub">
+                <a href="https://github.com/Gaurav-Kurude" target="_blank" className="text-dark fs-4 me-3" aria-label="GitHub">
                   <i className="bi bi-github"></i>
                 </a>
 
                 <a
                   href="https://www.linkedin.com/in/gaurav-kurude-500139215/?isSelfProfile=true"
+                  target="_blank"
                   className="text-dark fs-4 me-3"
                   aria-label="LinkedIn"
                 >
@@ -175,6 +176,7 @@ function App() {
 
                 <a
                   href="mailto:gauravkurude.sitmech@gmail.com"
+                  target="_blank"
                   className="text-dark fs-4"
                   aria-label="Email"
                 >
