@@ -316,7 +316,7 @@ function App() {
           <div className="text-center mb-5">
             <p className="text-primary fw-semibold">MY SKILLS</p>
 
-            <h2 className="display-5 fw-bold">Technologies I work with.</h2>
+            <h2 className="display-5 fw-bold skills-title">Technologies I work with.</h2>
 
             <p className="text-secondary">
               Technologies I'm using to build modern web applications.

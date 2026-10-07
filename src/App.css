@@ -316,3 +316,10 @@ body {
     font-size: 0.85rem;
   }
 }
+
+@media (max-width: 576px) {
+  .skills-title {
+    white-space: nowrap;
+    font-size: 1.7rem;
+  }
+}
