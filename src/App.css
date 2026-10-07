@@ -302,3 +302,9 @@ body {
     font-size: 0.85rem;
   }
 }
+
+@media (width <= 375px) {
+    .hero-section .min-vh-55 {
+        min-height: 88vh;
+    }
+}
