@@ -46,7 +46,7 @@ const skills = [
 
 const projects = [
   {
-    title: "MyCart",
+    title: "MyCart-eCommerce",
     category: "E-Commerce Application",
     description:
       "A full-stack e-commerce application with product browsing, search, categories, wishlist, cart, checkout, orders and profile management.",
