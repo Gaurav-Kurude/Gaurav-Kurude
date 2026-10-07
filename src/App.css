@@ -326,3 +326,9 @@ body {
     min-height: 180vh !important;
   }
 }
+
+@media (width <= 334px) {
+    .hero-section .min-vh-100 {
+        min-height: 200vh !important;
+    }
+}
