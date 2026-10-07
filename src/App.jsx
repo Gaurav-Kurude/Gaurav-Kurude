@@ -127,6 +127,16 @@ function App() {
                 >
                   Contact Me
                 </a>
+
+                <a
+                  href="/Gaurav-Kurude-Resume.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-outline-primary btn-lg rounded-pill"
+                >
+                  View Resume
+                  <i className="bi bi-file-earmark-person ms-2"></i>
+                </a>
               </div>
 
               {/* Social Links */}
