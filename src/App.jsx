@@ -132,7 +132,7 @@ function App() {
                   href="/Gaurav_Kurude_Resume.pdf"
                   target="_blank"
                   rel="noreferrer"
-                  className="btn btn-outline-primary ml-2 btn-lg rounded-pill"
+                  className="btn btn-outline-primary ms-2 btn-lg rounded-pill"
                 >
                   View Resume
                   <i className="bi bi-file-earmark-person ms-2"></i>
