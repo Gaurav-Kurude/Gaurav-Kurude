@@ -49,7 +49,7 @@ const projects = [
     title: "MyCart-eCommerce",
     category: "E-Commerce Application",
     description:
-      "A full-stack e-commerce application with product browsing, search, categories, wishlist, cart, checkout, orders and profile management.",
+      "A responsive e-commerce web application built with React, featuring product browsing, category filtering, wishlist, cart, checkout, order management, and user profile functionality.",
     technologies: ["React", "JavaScript", "Node.js", "Express", "MongoDB"],
     liveLink: "https://major-project-one-frontend-sage.vercel.app",
     githubLink: "https://github.com/Gaurav-Kurude/MyCart-eCommerce",
@@ -58,7 +58,7 @@ const projects = [
     title: "Anvaya CRM",
     category: "CRM Application",
     description:
-      "A full-stack CRM dashboard for managing leads, sales agents, statuses, comments, tags and business reports.",
+      "A full-stack CRM application built with React, Node.js, Express.js, and MongoDB for managing leads, sales agents, comments, tags, and reports with filtering and data visualization.",
     technologies: ["React", "JavaScript", "Node.js", "Express", "MongoDB"],
     liveLink: "https://major-project-two-frontend-sepia.vercel.app",
     githubLink: "https://github.com/Gaurav-Kurude/Anvaya-CRM",
