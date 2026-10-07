@@ -33,7 +33,7 @@ const projects = [
     githubLink: "https://github.com/Gaurav-Kurude/Anvaya-CRM",
   },
   {
-    title: "MyCart-eCommerce",
+    title: "MyCart",
     category: "E-Commerce Application",
     description:
       "A responsive e-commerce web application built with React, featuring product browsing, category filtering, wishlist, cart, checkout, order management, and user profile functionality.",
@@ -132,7 +132,7 @@ function App() {
                   href="/Gaurav_Kurude_Resume.pdf"
                   target="_blank"
                   rel="noreferrer"
-                  className="btn btn-outline-primary btn-lg rounded-pill"
+                  className="btn btn-outline-primary ml-2 btn-lg rounded-pill"
                 >
                   View Resume
                   <i className="bi bi-file-earmark-person ms-2"></i>
