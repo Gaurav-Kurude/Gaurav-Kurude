@@ -219,9 +219,9 @@ body {
     padding-bottom: 0;
   }
 
-  .hero-section .min-vh-100 {
+  /* .hero-section .min-vh-100 {
     min-height: 100vh !important;
-  }
+  } */
 
   .hero-section h1 {
     font-size: 2.8rem;
@@ -300,5 +300,17 @@ body {
   /* Footer */
   footer p {
     font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 992px){
+  .hero-section .min-vh-100 {
+    min-height: 60vh !important;
+  }
+}
+
+@media (min-width: 992px){
+  .hero-section .min-vh-100 {
+    min-height: 44vh !important;
   }
 }
