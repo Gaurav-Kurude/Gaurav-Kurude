@@ -52,10 +52,6 @@ body {
   line-height: 1.8;
 }
 
-.hero-content {
-  min-height: 70vh;
-}
-
 /* Code Card */
 .hero-code-card {
   background: #18181b;
@@ -195,7 +191,13 @@ body {
   }
 
   .hero-section {
-    padding-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  /* Reduce Hero section height on mobile */
+  .hero-section .min-vh-100 {
+    min-height: 70vh !important;
   }
 
   .hero-section h1 {
@@ -276,4 +278,13 @@ body {
   footer p {
     font-size: 0.85rem;
   }
+}
+
+.hero-section {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.hero-section .min-vh-100 {
+  min-height: 70vh !important;
 }
