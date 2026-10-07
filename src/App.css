@@ -11,7 +11,6 @@ body {
 }
 
 /* Navbar */
-
 .navbar {
   min-height: 70px;
 }
@@ -30,7 +29,6 @@ body {
 }
 
 /* Hero */
-
 .hero-section {
   background:
     radial-gradient(
@@ -55,7 +53,6 @@ body {
 }
 
 /* Code Card */
-
 .hero-code-card {
   background: #18181b;
   color: white;
@@ -100,18 +97,7 @@ body {
   color: #60a5fa;
 }
 
-/* About */
-
-.about-card {
-  border: 1px solid #eeeeee;
-}
-
-.about-card i {
-  display: inline-block;
-}
-
 /* Skills */
-
 .skill-card {
   border: 1px solid #eeeeee;
   background: white;
@@ -130,7 +116,6 @@ body {
 }
 
 /* Projects */
-
 .project-card {
   border: 1px solid #eeeeee;
   transition: 0.25s ease;
@@ -157,30 +142,7 @@ body {
   line-height: 1.7;
 }
 
-/* Education */
-
-.education-card {
-  border: 1px solid #eeeeee;
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-}
-
-.education-icon {
-  width: 55px;
-  height: 55px;
-  flex-shrink: 0;
-  border-radius: 15px;
-  background: #e9f2ff;
-  color: #0d6efd;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.3rem;
-}
-
 /* Contact */
-
 .contact-section {
   background: #171717;
 }
@@ -197,7 +159,6 @@ body {
 }
 
 /* Tablet */
-
 @media (max-width: 991px) {
   .navbar-collapse {
     background: white;
@@ -220,7 +181,6 @@ body {
 }
 
 /* Mobile */
-
 @media (max-width: 576px) {
   .navbar {
     min-height: 60px;
@@ -250,26 +210,32 @@ body {
   }
 
   /* Hero Buttons */
-
   .hero-buttons .btn {
     width: 100%;
     margin: 5px 0 !important;
   }
 
   /* Social Icons */
+  .social-links {
+    margin-top: 10px !important;
+  }
 
   .hero-section .fs-4 {
     font-size: 1.3rem !important;
   }
 
   /* Section Headings */
-
   .display-5 {
     font-size: 2rem;
   }
 
-  /* Project Cards */
+  /* Skills Heading */
+  .skills-title {
+    white-space: nowrap;
+    font-size: 1.5rem;
+  }
 
+  /* Project Cards */
   .project-card {
     padding: 25px !important;
   }
@@ -280,7 +246,6 @@ body {
   }
 
   /* Skills */
-
   .skill-card {
     padding: 20px !important;
   }
@@ -294,14 +259,7 @@ body {
     font-size: 1rem;
   }
 
-  /* Education */
-
-  .education-card {
-    flex-direction: column;
-  }
-
   /* Contact */
-
   .contact-section h2 {
     font-size: 2rem;
   }
@@ -311,15 +269,7 @@ body {
   }
 
   /* Footer */
-
   footer p {
     font-size: 0.85rem;
-  }
-}
-
-@media (max-width: 576px) {
-  .skills-title {
-    white-space: nowrap;
-    font-size: 1.7rem;
   }
 }

@@ -1,46 +1,16 @@
 import "./App.css";
 
 const skills = [
-  {
-    name: "HTML",
-    image: "https://cdn.simpleicons.org/html5",
-  },
-  {
-    name: "CSS",
-    image: "https://cdn.simpleicons.org/css",
-  },
-  {
-    name: "JavaScript",
-    image: "https://cdn.simpleicons.org/javascript",
-  },
-  {
-    name: "React",
-    image: "https://cdn.simpleicons.org/react",
-  },
-  {
-    name: "Bootstrap",
-    image: "https://cdn.simpleicons.org/bootstrap",
-  },
-  {
-    name: "Node.js",
-    image: "https://cdn.simpleicons.org/nodedotjs",
-  },
-  {
-    name: "Express.js",
-    image: "https://cdn.simpleicons.org/express",
-  },
-  {
-    name: "MongoDB",
-    image: "https://cdn.simpleicons.org/mongodb",
-  },
-  {
-    name: "GitHub",
-    image: "https://cdn.simpleicons.org/github",
-  },
-  {
-    name: "Git",
-    image: "https://cdn.simpleicons.org/git",
-  },
+  { name: "HTML", image: "https://cdn.simpleicons.org/html5" },
+  { name: "CSS", image: "https://cdn.simpleicons.org/css" },
+  { name: "JavaScript", image: "https://cdn.simpleicons.org/javascript" },
+  { name: "React", image: "https://cdn.simpleicons.org/react" },
+  { name: "Bootstrap", image: "https://cdn.simpleicons.org/bootstrap" },
+  { name: "Node.js", image: "https://cdn.simpleicons.org/nodedotjs" },
+  { name: "Express.js", image: "https://cdn.simpleicons.org/express" },
+  { name: "MongoDB", image: "https://cdn.simpleicons.org/mongodb" },
+  { name: "GitHub", image: "https://cdn.simpleicons.org/github" },
+  { name: "Git", image: "https://cdn.simpleicons.org/git" },
 ];
 
 const projects = [
@@ -77,7 +47,6 @@ function App() {
   return (
     <>
       {/* Navbar */}
-
       <nav className="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
         <div className="container">
           <a className="navbar-brand fw-bold" href="#home">
@@ -126,8 +95,7 @@ function App() {
         </div>
       </nav>
 
-      {/* Hero */}
-
+      {/* Hero Section */}
       <section id="home" className="hero-section">
         <div className="container">
           <div className="row align-items-center min-vh-100">
@@ -161,7 +129,8 @@ function App() {
                 </a>
               </div>
 
-              <div className="mt-4">
+              {/* Social Links */}
+              <div className="mt-2 social-links">
                 <a
                   href="https://github.com/Gaurav-Kurude"
                   target="_blank"
@@ -192,6 +161,7 @@ function App() {
               </div>
             </div>
 
+            {/* Code Card */}
             <div className="col-lg-5 d-none d-lg-block">
               <div className="hero-code-card shadow-lg">
                 <div className="code-header">
@@ -210,8 +180,7 @@ function App() {
                   </p>
 
                   <p className="ms-3">
-                    role:{" "}
-                    <span className="green">"Full-Stack Developer"</span>,
+                    role: <span className="green">"Full-Stack Developer"</span>,
                   </p>
 
                   <p className="ms-3">
@@ -232,8 +201,7 @@ function App() {
         </div>
       </section>
 
-      {/* Projects */}
-
+      {/* Projects Section */}
       <section id="projects" className="py-5 bg-white">
         <div className="container py-5">
           <div className="mb-5">
@@ -309,14 +277,15 @@ function App() {
         </div>
       </section>
 
-      {/* Skills */}
-
+      {/* Skills Section */}
       <section id="skills" className="py-5 bg-light">
         <div className="container py-5">
           <div className="text-center mb-5">
             <p className="text-primary fw-semibold">MY SKILLS</p>
 
-            <h2 className="display-5 fw-bold skills-title">Technologies I work with.</h2>
+            <h2 className="display-5 fw-bold skills-title">
+              Technologies I work with.
+            </h2>
 
             <p className="text-secondary">
               Technologies I'm using to build modern web applications.
@@ -341,8 +310,7 @@ function App() {
         </div>
       </section>
 
-      {/* Contact */}
-
+      {/* Contact Section */}
       <section id="contact" className="contact-section py-5">
         <div className="container py-5 text-center">
           <p className="text-primary fw-semibold">GET IN TOUCH</p>
@@ -367,7 +335,6 @@ function App() {
       </section>
 
       {/* Footer */}
-
       <footer className="bg-dark text-secondary py-4">
         <div className="container text-center">
           <p className="mb-0">© 2026 Gaurav Kurude. All rights reserved.</p>
@@ -378,4 +345,3 @@ function App() {
 }
 
 export default App;
-
