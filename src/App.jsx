@@ -284,6 +284,7 @@ function App() {
 
                       <a
                         href={project.githubLink}
+                        target="_blank"
                         className="btn btn-outline-dark rounded-pill"
                       >
                         GitHub
