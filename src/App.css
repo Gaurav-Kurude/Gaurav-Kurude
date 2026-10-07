@@ -220,7 +220,7 @@ body {
   }
 
   .hero-section .min-vh-55 {
-    min-height: 55vh !important;
+    min-height: 100vh !important;
   }
 
   .hero-section h1 {
@@ -301,10 +301,4 @@ body {
   footer p {
     font-size: 0.85rem;
   }
-}
-
-@media (width <= 375px) {
-    .hero-section .min-vh-55 {
-        min-height: 88vh;
-    }
 }
