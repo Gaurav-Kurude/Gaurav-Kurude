@@ -219,7 +219,6 @@ body {
     padding-bottom: 0;
   }
 
-  /* Hero section takes at least 80% of mobile screen height */
   .hero-section .min-vh-100 {
     min-height: 100vh !important;
   }
@@ -302,5 +301,11 @@ body {
   footer p {
     font-size: 0.85rem;
   }
+}
+
+@media (width <= 576px) {
+    .hero-section .min-vh-100 {
+        min-height: 55vh !important;
+    }
 }
 
