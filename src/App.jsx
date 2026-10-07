@@ -98,7 +98,7 @@ function App() {
       {/* Hero Section */}
       <section id="home" className="hero-section">
         <div className="container">
-          <div className="row align-items-center min-vh-100">
+          <div className="row align-items-center min-vh-80">
             <div className="col-lg-7">
               <p className="text-primary fw-semibold mb-2">HELLO, I'M</p>
 
