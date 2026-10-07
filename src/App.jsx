@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 
 const skills = [
@@ -75,52 +74,50 @@ const projects = [
 ];
 
 function App() {
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  const closeMenu = () => {
-    setMenuOpen(false);
-  };
-
   return (
     <>
       {/* Navbar */}
 
       <nav className="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
         <div className="container">
-          <a className="navbar-brand fw-bold" href="#home" onClick={closeMenu}>
+          <a className="navbar-brand fw-bold" href="#home">
             Gaurav<span className="text-primary">.</span>
           </a>
 
           <button
             className="navbar-toggler"
             type="button"
-            onClick={() => setMenuOpen(!menuOpen)}
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div className={`navbar-collapse ${menuOpen ? "show" : ""}`}>
+          <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto align-items-lg-center">
               <li className="nav-item">
-                <a className="nav-link" href="#home" onClick={closeMenu}>
+                <a className="nav-link" href="#home">
                   Home
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#projects" onClick={closeMenu}>
+                <a className="nav-link" href="#projects">
                   Projects
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#skills" onClick={closeMenu}>
+                <a className="nav-link" href="#skills">
                   Skills
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#contact" onClick={closeMenu}>
+                <a className="nav-link" href="#contact">
                   Contact
                 </a>
               </li>
@@ -148,7 +145,7 @@ function App() {
                 modern frontend and backend technologies.
               </p>
 
-              <div className="mt-4">
+              <div className="mt-4 hero-buttons">
                 <a
                   href="#projects"
                   className="btn btn-primary btn-lg rounded-pill me-2"
@@ -165,13 +162,20 @@ function App() {
               </div>
 
               <div className="mt-4">
-                <a href="https://github.com/Gaurav-Kurude" target="_blank" className="text-dark fs-4 me-3" aria-label="GitHub">
+                <a
+                  href="https://github.com/Gaurav-Kurude"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-dark fs-4 me-3"
+                  aria-label="GitHub"
+                >
                   <i className="bi bi-github"></i>
                 </a>
 
                 <a
                   href="https://www.linkedin.com/in/gaurav-kurude-500139215/?isSelfProfile=true"
                   target="_blank"
+                  rel="noreferrer"
                   className="text-dark fs-4 me-3"
                   aria-label="LinkedIn"
                 >
@@ -180,7 +184,6 @@ function App() {
 
                 <a
                   href="mailto:gauravkurude.sitmech@gmail.com"
-                  target="_blank"
                   className="text-dark fs-4"
                   aria-label="Email"
                 >
@@ -207,7 +210,8 @@ function App() {
                   </p>
 
                   <p className="ms-3">
-                    role: <span className="green">"Full-Stack Developer"</span>,
+                    role:{" "}
+                    <span className="green">"Full-Stack Developer"</span>,
                   </p>
 
                   <p className="ms-3">
@@ -285,6 +289,7 @@ function App() {
                       <a
                         href={project.githubLink}
                         target="_blank"
+                        rel="noreferrer"
                         className="btn btn-outline-dark rounded-pill"
                       >
                         GitHub
@@ -373,3 +378,4 @@ function App() {
 }
 
 export default App;
+

@@ -249,26 +249,26 @@ body {
     line-height: 1.7;
   }
 
-  /* Hero buttons */
+  /* Hero Buttons */
 
-  .hero-section .btn {
+  .hero-buttons .btn {
     width: 100%;
     margin: 5px 0 !important;
   }
 
-  /* Social icons */
+  /* Social Icons */
 
   .hero-section .fs-4 {
     font-size: 1.3rem !important;
   }
 
-  /* Section headings */
+  /* Section Headings */
 
   .display-5 {
     font-size: 2rem;
   }
 
-  /* Project cards */
+  /* Project Cards */
 
   .project-card {
     padding: 25px !important;
