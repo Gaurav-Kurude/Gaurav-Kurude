@@ -52,6 +52,10 @@ body {
   line-height: 1.8;
 }
 
+.hero-content {
+  min-height: 70vh;
+}
+
 /* Code Card */
 .hero-code-card {
   background: #18181b;
