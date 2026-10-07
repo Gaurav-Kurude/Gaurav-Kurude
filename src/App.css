@@ -335,6 +335,6 @@ body {
 
 @media (width >= 992px) {
     .hero-section .min-vh-100 {
-        min-height: 170vh !important;
+        min-height: 100vh !important;
     }
 }
