@@ -120,7 +120,7 @@ function App() {
               <div className="mt-4 hero-buttons">
                 <a
                   href="#projects"
-                  className="btn btn-primary btn-lg rounded-pill me-2"
+                  className="btn btn-primary btn-lg rounded-pill me-3"
                 >
                   View Projects
                 </a>
@@ -136,7 +136,7 @@ function App() {
                   href="/Gaurav_Kurude_Resume.pdf"
                   target="_blank"
                   rel="noreferrer"
-                  className="btn btn-outline-primary ms-2 btn-lg rounded-pill"
+                  className="btn btn-outline-primary ms-3 btn-lg rounded-pill"
                 >
                   View Resume
                   <i className="bi bi-file-earmark-person ms-2"></i>
@@ -149,7 +149,7 @@ function App() {
                   href="https://github.com/Gaurav-Kurude"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-dark fs-4 me-5"
+                  className="text-dark fs-4 me-4"
                   aria-label="GitHub"
                 >
                   <i className="bi bi-github"></i>
@@ -159,7 +159,7 @@ function App() {
                   href="https://www.linkedin.com/in/gaurav-kurude-500139215/?isSelfProfile=true"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-dark fs-4 me-5"
+                  className="text-dark fs-4 me-4"
                   aria-label="LinkedIn"
                 >
                   <i className="bi bi-linkedin"></i>
