@@ -149,7 +149,7 @@ function App() {
                   href="https://github.com/Gaurav-Kurude"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-dark fs-4 me-3"
+                  className="text-dark fs-4 me-4"
                   aria-label="GitHub"
                 >
                   <i className="bi bi-github"></i>
@@ -159,7 +159,7 @@ function App() {
                   href="https://www.linkedin.com/in/gaurav-kurude-500139215/?isSelfProfile=true"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-dark fs-4 me-3"
+                  className="text-dark fs-4 me-4"
                   aria-label="LinkedIn"
                 >
                   <i className="bi bi-linkedin"></i>
