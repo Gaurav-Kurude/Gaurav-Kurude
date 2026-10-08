@@ -238,13 +238,19 @@ body {
     line-height: 1.7;
   }
 
-  /* Hero Buttons */
+  /* =========================
+     Hero Buttons - Mobile
+  ========================= */
+
   .hero-buttons .btn {
     width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
     margin: 5px 0 !important;
   }
 
   /* Social Icons */
+
   .social-links {
     margin-top: 10px !important;
   }
@@ -254,17 +260,20 @@ body {
   }
 
   /* Section Headings */
+
   .display-5 {
     font-size: 2rem;
   }
 
   /* Skills Heading */
+
   .skills-title {
     white-space: nowrap;
     font-size: 1.5rem;
   }
 
   /* Project Cards */
+
   .project-card {
     padding: 25px !important;
   }
@@ -275,6 +284,7 @@ body {
   }
 
   /* Skills */
+
   .skill-card {
     padding: 20px !important;
   }
@@ -289,6 +299,7 @@ body {
   }
 
   /* Contact */
+
   .contact-section h2 {
     font-size: 2rem;
   }
@@ -298,7 +309,15 @@ body {
   }
 
   /* Footer */
+
   footer p {
     font-size: 0.85rem;
   }
+}
+
+.hero-buttons .btn {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin: 5px 0 !important;
 }
