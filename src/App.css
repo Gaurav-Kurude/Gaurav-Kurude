@@ -1,17 +1,23 @@
 html {
   scroll-behavior: smooth;
+
   scroll-padding-top: 70px;
 }
 
 body {
   margin: 0;
+
   font-family: Arial, Helvetica, sans-serif;
+
   color: #171717;
+
   overflow-x: hidden;
 }
 
 /* =========================
+
    Navbar
+
 ========================= */
 
 .navbar {
@@ -24,6 +30,7 @@ body {
 
 .nav-link {
   font-weight: 500;
+
   margin-left: 10px;
 }
 
@@ -32,13 +39,16 @@ body {
 }
 
 /* =========================
+
    Hero Section
+
 ========================= */
 
 .hero-section {
   background:
     radial-gradient(
       circle at 85% 25%,
+
       rgba(13, 110, 253, 0.12),
       transparent 30%
     ),
@@ -55,38 +65,53 @@ body {
 
 .hero-section .lead {
   max-width: 650px;
+
   line-height: 1.8;
 }
 
 /* =========================
+
    Code Card
+
 ========================= */
 
 .hero-code-card {
   background: #18181b;
+
   color: white;
+
   border-radius: 18px;
+
   overflow: hidden;
+
   transform: rotate(2deg);
 }
 
 .code-header {
   background: #27272a;
+
   padding: 15px 20px;
+
   display: flex;
+
   gap: 7px;
 }
 
 .code-header span {
   width: 11px;
+
   height: 11px;
+
   background: #777;
+
   border-radius: 50%;
 }
 
 .code-body {
   padding: 35px;
+
   font-family: monospace;
+
   line-height: 1.9;
 }
 
@@ -107,49 +132,68 @@ body {
 }
 
 /* =========================
+
    Skills
+
 ========================= */
 
 .skill-card {
   border: 1px solid #eeeeee;
+
   background: white;
+
   transition: 0.25s ease;
 }
 
 .skill-card:hover {
   transform: translateY(-5px);
+
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
 }
 
 .skill-image {
   width: 55px;
+
   height: 55px;
+
   object-fit: contain;
 }
 
 /* =========================
+
    Projects
+
 ========================= */
 
 .project-card {
   border: 1px solid #eeeeee;
+
   transition: 0.25s ease;
 }
 
 .project-card:hover {
   transform: translateY(-7px);
+
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08) !important;
 }
 
 .project-icon {
   width: 55px;
+
   height: 55px;
+
   border-radius: 15px;
+
   background: #e9f2ff;
+
   color: #0d6efd;
+
   display: flex;
+
   align-items: center;
+
   justify-content: center;
+
   font-size: 1.4rem;
 }
 
@@ -158,7 +202,9 @@ body {
 }
 
 /* =========================
+
    Contact
+
 ========================= */
 
 .contact-section {
@@ -167,28 +213,36 @@ body {
 
 .contact-section h2 {
   max-width: 700px;
+
   margin: auto;
 }
 
 .contact-section p {
   max-width: 650px;
+
   margin-left: auto;
+
   margin-right: auto;
 }
 
 /* =========================
+
    Tablet
+
 ========================= */
 
 @media (max-width: 991px) {
   .navbar-collapse {
     background: white;
+
     padding: 15px 20px;
+
     border-radius: 0 0 10px 10px;
   }
 
   .nav-link {
     margin-left: 0;
+
     padding: 10px 0;
   }
 
@@ -202,7 +256,9 @@ body {
 }
 
 /* =========================
+
    Mobile
+
 ========================= */
 
 @media (max-width: 576px) {
@@ -216,6 +272,7 @@ body {
 
   .hero-section {
     padding-top: 40px;
+
     padding-bottom: 20px;
   }
 
@@ -225,7 +282,9 @@ body {
 
   .hero-section h1 {
     font-size: 2.8rem;
+
     letter-spacing: -2px;
+
     line-height: 1.1;
   }
 
@@ -235,17 +294,15 @@ body {
 
   .hero-section .lead {
     font-size: 1rem;
+
     line-height: 1.7;
   }
 
-  /* =========================
-     Hero Buttons - Mobile
-  ========================= */
+  /* Hero Buttons */
 
   .hero-buttons .btn {
     width: 100%;
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
+
     margin: 5px 0 !important;
   }
 
@@ -269,6 +326,7 @@ body {
 
   .skills-title {
     white-space: nowrap;
+
     font-size: 1.5rem;
   }
 
@@ -280,6 +338,7 @@ body {
 
   .project-card .btn {
     width: 100%;
+
     margin: 5px 0 !important;
   }
 
@@ -291,6 +350,7 @@ body {
 
   .skill-image {
     width: 45px;
+
     height: 45px;
   }
 
@@ -313,11 +373,4 @@ body {
   footer p {
     font-size: 0.85rem;
   }
-}
-
-.hero-buttons .btn {
-  width: 100%;
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
-  margin: 5px 0 !important;
 }
