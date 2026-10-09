@@ -144,7 +144,7 @@ function App() {
               </div>
 
               {/* Social Links */}
-              <div className="mt-3 social-links">
+              <div className="mt-4 social-links">
                 <a
                   href="https://github.com/Gaurav-Kurude"
                   target="_blank"
